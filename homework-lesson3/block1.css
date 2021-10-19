@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    background: #ffffff;
+    box-sizing: border-box;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #c5ffff;
+    height: 100px;
+    flex-grow: 1;
+}
+
+.main{
+    display: flex;
+    column-gap: 5px;
+    margin-top: 5px;
+}
+
+.main-left{
+    background: aquamarine;
+    height: 300px;
+    width: 80%;
+}
+
+.main-right{
+    background: #ff0a11;
+    flex-grow: 1;
+}
