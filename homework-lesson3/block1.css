@@ -8,6 +8,7 @@
     background: #ffffff;
     box-sizing: border-box;
     border: 2px solid black;
+    border-radius: 10px;
     padding: 5px;
     margin: 0 auto;
 }
@@ -33,4 +34,12 @@
 .main-right{
     background: #ff0a11;
     flex-grow: 1;
+}
+
+.all{
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
