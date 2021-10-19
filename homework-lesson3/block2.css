@@ -13,17 +13,20 @@
     background: blue;
     height: 150px;
     flex-grow: 1;
+    margin-bottom: 5px;
 }
 
 .nav{
     background: #060688;
     height: 100px;
     flex-grow: 1;
+    margin-bottom: 5px;
 }
 
 .main{
     display: flex;
     column-gap: 5px;
+    margin-bottom: 5px;
 }
 
 .main-left{
