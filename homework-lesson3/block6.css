@@ -19,11 +19,11 @@
 .item {
     height: 500px;
     flex-grow: 1;
-    background: #0e3fde;
+    background: #90a5ea;
 }
 
 .main {
-    background: #0e3fde;
+    background: #90a5ea;
     height: 200px;
     flex-grow: 1;
     margin-bottom: 20px;
