@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.header{
+    background: blue;
+    height: 150px;
+    flex-grow: 1;
+}
+
+.nav{
+    background: #060688;
+    height: 100px;
+    flex-grow: 1;
+}
+
+.main{
+    display: flex;
+    column-gap: 5px;
+}
+
+.main-left{
+    height: 400px;
+    background: cornflowerblue;
+    width: 70%;
+}
+
+.aside{
+    background: purple;
+    flex-grow: 1;
+}
+
+.footer{
+    background: #c5ffff;
+    height: 120px;
+    flex-grow: 1;
+}
+
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
