@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+
+
+}
+
+.header{
+    height: 250px;
+    background: #3c67f6;
+    flex-grow: 1;
+    font-size: 40px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    column-gap: 5px;
+    font-size: 40px;
+}
+
+.widget{
+    height: 250px;
+    background: #0e3fde;
+    flex-grow: 1;
+}
+
+.footer{
+    height: 400px;
+    background: #3c67f6;
+    flex-grow: 1;
+    font-size: 40px;
+}
+
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
