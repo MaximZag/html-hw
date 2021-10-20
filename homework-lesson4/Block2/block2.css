@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.height {
+    height: 150px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.m-b {
+    margin-bottom: 5px;
+}
+
+.header {
+    background: dodgerblue;
+}
+
+.nav {
+    background: #1b31ff;
+}
+
+.main {
+    display: flex;
+    column-gap: 5px;
+}
+
+.main-left {
+    height: 400px;
+    flex-grow: 4;
+    background: #92e7e7;
+}
+
+.main-right {
+    flex-grow: 1;
+    background: purple;
+}
+
+.footer {
+    background: lightblue;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
