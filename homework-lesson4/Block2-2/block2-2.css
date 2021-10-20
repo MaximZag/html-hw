@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.height {
+    height: 200px;
+}
+
+.bg {
+    background: #3c67f6;
+}
+
+.m-b {
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main {
+    display: flex;
+    column-gap: 10px;
+}
+
+.item {
+    background: blue;
+    flex-grow: 1;
+}
+
+.bottom {
+    height: 400px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+}
