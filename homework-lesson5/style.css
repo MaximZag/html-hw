@@ -4,9 +4,7 @@
 }
 
 .container {
-    width: 1200px;
     margin: 0 auto;
-
 }
 
 .header-top {
@@ -29,15 +27,15 @@
     display: flex;
     background: darkgray;
     height: 150px;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
+    column-gap: 300px;
 }
 
 .header-bottom-left {
     background: blue;
     width: 200px;
     height: 70px;
-    margin-left: 200px;
     border-radius: 10px;
 }
 
