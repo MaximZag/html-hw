@@ -22,19 +22,25 @@
         row-gap: 15px;
     }
 
-    .round{
+    .round {
         flex-wrap: wrap;
         row-gap: 15px;
     }
-    .cards{
+
+    .cards {
         padding: 20px;
     }
-    .cards-item{
+
+    .cards-item {
         width: 90%;
     }
-    .bottom-part{
+
+    .bottom-part {
         flex-wrap: wrap;
         padding: 20px;
     }
 
+    .footer {
+        padding: 0 0;
+    }
 }
