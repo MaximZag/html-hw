@@ -116,7 +116,23 @@
     background: blue;
     border-radius: 10px;
 }
-
-
+.round{
+    background: blue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+    column-gap: 30px;
+}
+.round-item{
+    text-align: center;
+    width: 200px;
+    color: darkgray;
+}
+.image2{
+    height: 200px;
+    background: darkgray;
+    border-radius: 50%;
+}
 
 
