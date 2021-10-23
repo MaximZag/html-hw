@@ -36,7 +36,7 @@
 .header-bottom-left {
     background: blue;
     width: 200px;
-    height: 100px;
+    height: 70px;
     margin-left: 200px;
     border-radius: 10px;
 }
@@ -46,7 +46,7 @@
     justify-content: flex-end;
     align-items: center;
     padding-right: 100px;
-    column-gap: 50px;
+    column-gap: 18px;
 }
 
 .size {
@@ -115,6 +115,7 @@
     height: 200px;
     background: blue;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .round {
@@ -164,7 +165,7 @@
 }
 
 .cards-item {
-    border: 2px solid blue;
+    border: 2px solid #c5ffff;
     border-radius: 10px;
     width: 23%;
     padding: 10px;
@@ -181,7 +182,7 @@
 .cards-item-bottom {
     display: flex;
     height: 30px;
-    border: 2px solid blue;
+    border: 2px solid #c5ffff;
     border-radius: 10px;
     justify-content: space-between;
     align-items: center;
@@ -244,5 +245,25 @@
     justify-content: center;
     align-items: center;
 }
+.footer{
+    background: blue;
+    padding: 0 400px;
 
-
+}
+.footer-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    padding: 30px;
+}
+.footer-top-item{
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    background: darkgray;
+}
+.footer-bottom{
+    height: 20px;
+    border-top: 2px solid #c5ffff;
+}
