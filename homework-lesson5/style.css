@@ -70,7 +70,7 @@
 
 .hero-medium {
     width: 60%;
-    text-align: center;
+    text-align: justify;
     font-size: 20px;
 }
 
@@ -168,7 +168,7 @@
     border-radius: 10px;
     width: 23%;
     padding: 10px;
-    text-align: center;
+    text-align: justify;
 }
 
 .cards-item-image {
@@ -203,6 +203,46 @@
 
 .cards-item-bottom-right-button {
     color: blue;
+}
+
+.bottom-part {
+    background: darkgray;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-part-item {
+    height: 200px;
+    padding: 100px;
+}
+
+.bg1 {
+    background: blue;
+    color: #c5ffff;
+}
+
+.bg2 {
+    background: #c5ffff;
+    color: blue;
+}
+
+.top {
+    font-size: 30px;
+}
+
+.middle {
+    text-align: justify;
+}
+
+.bottom {
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
