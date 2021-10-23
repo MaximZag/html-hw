@@ -26,6 +26,12 @@
         flex-wrap: wrap;
         row-gap: 15px;
     }
+    .round-item{
+        width: 400px;
+    }
+    .image2{
+        height: 400px;
+    }
 
     .cards {
         padding: 20px;
