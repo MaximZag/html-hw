@@ -12,15 +12,13 @@
     height: 100px;
     background: #c5ffff;
     display: flex;
-    column-gap: 10px;
+    column-gap: 20px;
     justify-content: flex-end;
     align-items: center;
     padding-right: 100px;
 }
 
 .link1 {
-    height: 20px;
-    width: 100px;
     font-size: 30px;
     color: black;
     font-weight: 900;
@@ -36,7 +34,7 @@
 
 .header-bottom-left {
     background: blue;
-    width: 300px;
+    width: 200px;
     height: 100px;
     margin-left: 200px;
     border-radius: 10px;
@@ -44,8 +42,37 @@
 
 .header-bottom-right {
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 100px;
+    column-gap: 50px;
+}
+.size{
+    font-size: 40px;
+}
+.hero{
+    height: 400px;
+    background: #c5ffff;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
-.link2 {
+.hero-top{
+    font-size: 50px;
 }
+.hero-medium{
+    width: 60%;
+}
+.button{
+    width: 200px;
+    height: 70px;
+    border-radius: 20px;
+    background: blue;
+    font-size: 40px;
+    color: white;
+}
+
 
