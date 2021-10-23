@@ -32,5 +32,9 @@
     .cards-item{
         width: 90%;
     }
+    .bottom-part{
+        flex-wrap: wrap;
+        padding: 20px;
+    }
 
 }

@@ -231,6 +231,10 @@
     font-size: 30px;
 }
 
+.mb {
+    margin-bottom: 10px;
+}
+
 .middle {
     text-align: justify;
 }
@@ -243,11 +247,13 @@
     justify-content: center;
     align-items: center;
 }
-.footer{
+
+.footer {
     background: blue;
     padding: 0 400px;
 
 }
+
 .footer-top {
     display: flex;
     justify-content: center;
@@ -255,13 +261,15 @@
     column-gap: 20px;
     padding: 30px;
 }
-.footer-top-item{
+
+.footer-top-item {
     height: 30px;
     width: 30px;
     border-radius: 5px;
     background: darkgray;
 }
-.footer-bottom{
+
+.footer-bottom {
     height: 20px;
     border-top: 2px solid #c5ffff;
 }
