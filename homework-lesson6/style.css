@@ -23,6 +23,52 @@
 .header__top__left {
     margin-left: 165px;
 }
-.header__top_right{
+
+.header__top_right {
     display: flex;
+    column-gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__top__menu {
+    display: flex;
+    column-gap: 23px;
+}
+.open_sans{
+    font-family: Open Sans;
+    font-style: normal;
+}
+.header__top__menu__item {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.header__top__menu img {
+    width: 17px;
+}
+.header__top__contact{
+    padding-left: 35px;
+    border-left: 2px solid white;
+}
+.header__top__contact__top{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+}
+.header__top__contact p{
+    width: 154px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+}
+.header__top__button{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    background: #FF7400;
+    padding: 14px 19px;
+    margin: 0 165px 0 45px;
 }
