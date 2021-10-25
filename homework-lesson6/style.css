@@ -13,7 +13,7 @@
 .header {
     height: 800px;
     background: url("images/hero image.jpg") no-repeat center/cover;
-    position: relative;
+
 }
 
 .header__top {
@@ -109,6 +109,7 @@
     line-height: 92px;
     color: #D67E35;
 }
+
 .header__main__bottom {
     font-weight: normal;
     font-size: 18px;
@@ -118,8 +119,9 @@
     align-items: center;
     column-gap: 8px;
 }
+
 .header__main__bottom::before,
-.header__main__bottom::after{
+.header__main__bottom::after {
     content: "";
     display: block;
     width: 61px;
@@ -135,16 +137,24 @@
     padding: 14px 19px;
     margin-top: 21px;
 }
-.position{
+
+.central {
+    height: 1000px;
+    background: #E5E5E5;
+    position: relative;
+}
+
+.position {
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     column-gap: 31px;
     left: 166px;
-    bottom: -220px;
+    top: -107px;
 }
-.position__items{
+
+.position__items {
     width: 350px;
     height: 330px;
     background: white;
@@ -155,11 +165,8 @@
     row-gap: 5px;
     padding-top: 35px;
 }
-.central{
-    height: 600px;
-    background: #fffd49;
-}
-.items__cards{
+
+.items__cards {
     font-family: Tinos;
     font-style: normal;
     font-weight: normal;
@@ -167,5 +174,18 @@
     line-height: 30px;
     text-align: center;
     color: black;
+}
 
+.mobile__button {
+    display: none;
+    width: 30px;
+    flex-direction: column;
+    row-gap: 5px;
+    margin-right: 17px;
+
+}
+
+.mobile__button div {
+    height: 3px;
+    background: #FF7400;
 }
