@@ -5,20 +5,22 @@
 
 
 .container {
+    width: 1440px;
     margin: 0 auto;
     color: white;
 }
 
 .header {
-    height: 100vh;
-    padding-top: 50px;
-    background: url("images/hero image.jpg") no-repeat center/cover;
+    height: 800px;
+    background: url("images/hero image.jpg") no-repeat;
+    position: relative;
 }
 
 .header__top {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 50px;
 }
 
 .header__top__left {
@@ -132,4 +134,38 @@
     background: #FF7400;
     padding: 14px 19px;
     margin-top: 21px;
+}
+.position{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 31px;
+    left: 166px;
+    bottom: -220px;
+}
+.position__items{
+    width: 350px;
+    height: 330px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 5px;
+    padding-top: 35px;
+}
+.central{
+    height: 600px;
+    background: #fffd49;
+}
+.items__cards{
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: black;
+
 }
