@@ -5,14 +5,14 @@
 
 
 .container {
-    width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
     color: white;
 }
 
 .header {
     height: 800px;
-    background: url("images/hero image.jpg") no-repeat;
+    background: url("images/hero image.jpg") no-repeat center/cover;
     position: relative;
 }
 
@@ -27,7 +27,7 @@
     margin-left: 165px;
 }
 
-.header__top_right {
+.header__top__right {
     display: flex;
     column-gap: 15px;
     justify-content: center;
