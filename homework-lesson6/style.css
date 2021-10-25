@@ -35,10 +35,12 @@
     display: flex;
     column-gap: 23px;
 }
-.open_sans{
+
+.open_sans {
     font-family: Open Sans;
     font-style: normal;
 }
+
 .header__top__menu__item {
     font-weight: bold;
     font-size: 14px;
@@ -49,26 +51,84 @@
 .header__top__menu img {
     width: 17px;
 }
-.header__top__contact{
+
+.header__top__contact {
     padding-left: 35px;
     border-left: 2px solid white;
 }
-.header__top__contact__top{
+
+.header__top__contact__top {
     font-weight: bold;
     font-size: 18px;
     line-height: 25px;
 }
-.header__top__contact p{
+
+.header__top__contact p {
     width: 154px;
     font-weight: normal;
     font-size: 14px;
     line-height: 19px;
 }
-.header__top__button{
+
+.header__top__button {
     font-weight: bold;
     font-size: 14px;
     line-height: 19px;
     background: #FF7400;
     padding: 14px 19px;
     margin: 0 165px 0 45px;
+}
+
+.header__main {
+    width: 550px;
+    margin: 204px 0 0 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__main__top {
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 57px;
+    color: #D67E35;
+    margin-left: 25px;
+}
+
+.header__main__middle {
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 92px;
+    color: #D67E35;
+}
+.header__main__bottom {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 8px;
+}
+.header__main__bottom::before,
+.header__main__bottom::after{
+    content: "";
+    display: block;
+    width: 61px;
+    height: 2px;
+    background: white;
+}
+
+.header__main__button {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    background: #FF7400;
+    padding: 14px 19px;
+    margin-top: 21px;
 }
