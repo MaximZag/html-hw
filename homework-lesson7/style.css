@@ -46,3 +46,46 @@
     width: 157px;
     margin-right: 165px;
 }
+.header-main{
+    height: 700px;
+    padding-top: 204px;
+}
+.tinos{
+    font-family: Tinos;
+    font-style: normal;
+}
+.header-main-top{
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 57px;
+    color: #D67E35;
+}
+.header-main-middle{
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 92px;
+    color: #D67E35;
+}
+.header-main-bottom{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+    column-gap: 8px;
+}
+.header-main-bottom::before,
+.header-main-bottom::after {
+    content: "";
+    display: block;
+    width: 61px;
+    height: 2px;
+    background: white;
+}
+.header-main-button{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    background: #FF7400;
+    padding: 14px 19px;
+    margin-top: 21px;
+}
