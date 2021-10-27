@@ -1,0 +1,48 @@
+.container{
+    width: 1440px;
+}
+.header {
+    background: url("images/hero image.jpg") no-repeat center/cover;
+    height: 800px;
+    padding-top: 50px;
+}
+.header-top{
+    height: 50px;
+
+    color: white;
+}
+.header-logo>img{
+    height: 48px;
+    margin-left: 165px;
+}
+.os{
+    font-family: Open Sans;
+    font-style: normal;
+}
+.header-menu{
+    column-gap: 23px;
+    padding-right: 15px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+}
+.header-contact{
+    width: 245px;
+    padding-left: 35px;
+    border-left: 2px solid white;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+}
+.header-contact>p{
+    margin-bottom: 0;
+}
+.header-button{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    background: #FF7400;
+    padding: 14px 19px;
+    width: 157px;
+    margin-right: 165px;
+}
