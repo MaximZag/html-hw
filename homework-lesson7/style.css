@@ -1,5 +1,4 @@
 .container {
-    width: 1440px;
     padding: 0;
 }
 
@@ -11,13 +10,11 @@
 
 .header-top {
     height: 50px;
-
     color: white;
 }
 
 .header-logo > img {
     height: 48px;
-    margin-left: 165px;
 }
 
 .os {
@@ -107,10 +104,10 @@
 }
 
 .second-block {
-    height: 600px;
+    height: 1000px;
     background: #c0bfbf;
     column-gap: 31px;
-    position: relative;
+    row-gap: 14px;
 }
 
 .card {
@@ -118,13 +115,25 @@
     top: -107px;
     row-gap: 15px;
 }
-.card-item>img{
+
+.card-item > img {
     width: 126px;
 }
 
-.card-item{
+.card-item {
     font-weight: normal;
     font-size: 26px;
     line-height: 30px;
     text-align: center;
+}
+
+.mobile-button {
+    width: 30px;
+    row-gap: 5px;
+    margin-right: 17px;
+}
+
+.mobile-button div {
+    height: 3px;
+    background: #FF7400;
 }

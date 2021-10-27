@@ -9,57 +9,64 @@
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Tinos&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Restorant</title>
 </head>
 <body>
 
 
 <div class="container">
     <div class="header">
-        <div class="header-top d-flex align-items-center">
-            <div class="header-logo col-3">
+        <div class="header-top d-flex justify-content-between align-items-center">
+            <div class="header-logo col-3 d-flex justify-content-center">
                 <img src="images/LOGO.png" alt="Logo">
             </div>
-            <div class="header-menu os col-4 d-flex justify-content-end">
+            <div class="header-menu os col-4 d-none d-sm-flex justify-content-end">
                 <div class="menu-item">ГЛАВНАЯ</div>
                 <div class="menu-item">МЕНЮ</div>
                 <div class="menu-item">О НАС</div>
                 <div class="menu-item">БРОНЬ</div>
                 <div class="menu-item"><img src="images/cart.png" alt="Cart"></div>
             </div>
-            <div class="header-contact os col-3">
+            <div class="header-contact d-none d-sm-block os col-3">
                 <div class="header-contact-top">
                     <img src="images/phone.png" alt="Phone">+999-888-76-54
                 </div>
                 <p>Свяжитесь с нами для бронирования</p>
             </div>
-            <div class="header-button col-2">ЗАКАЗ СТОЛИКА</div>
+            <div class="header-button d-none d-sm-block col-2">ЗАКАЗ СТОЛИКА</div>
+            <div class="mobile-button d-flex d-sm-none flex-column">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
         </div>
-        <div class="header-main col-7 d-flex flex-column align-items-center">
+        <div class="header-main col-12 col-sm-7 d-flex flex-column align-items-center">
             <div class="header-main-top tinos">Добро пожаловать в</div>
             <div class="header-main-middle tinos">Наш ресторан</div>
             <div class="header-main-bottom d-flex justify-content-center align-items-center os">ДОМ ЛУЧШЕЙ ЕДЫ</div>
             <div class="header-main-button os">VIEW MENU</div>
         </div>
     </div>
-    <div class="second-block d-flex justify-content-center">
-        <div class="card col-3">
+    <div class="second-block d-flex flex-column flex-sm-row justify-content-center">
+        <div class="card col-10 offset-1 col-sm-3 offset-sm-0">
             <div class="card-item"><img src="images/Mask%20Group.png" alt="Plate"></div>
             <div class="card-item tinos">Магическая Атмосфера</div>
             <div class="card-item tinos">В нашем заведении царит магическая атмосфера
-                наполненная вкусными ароматами</div>
+                наполненная вкусными ароматами
+            </div>
         </div>
-        <div class="card col-3">
+        <div class="card col-10 offset-1 col-sm-3 offset-sm-0">
             <div class="card-item"><img src="images/Mask%20Group.png" alt="Plate"></div>
             <div class="card-item tinos">Лучшее качество Еды</div>
             <div class="card-item tinos">Качество нашей Еды - отменное!
             </div>
         </div>
-        <div class="card col-3">
+        <div class="card col-10 offset-1 col-sm-3 offset-sm-0">
             <div class="card-item"><img src="images/Mask%20Group.png" alt="Plate"></div>
             <div class="card-item tinos">Недорогая Еда</div>
             <div class="card-item tinos">Стоимость нашей Еды зависит только от ее количества. Качество
-                всегда на высоте!</div>
+                всегда на высоте!
+            </div>
         </div>
     </div>
 </div>
