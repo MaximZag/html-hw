@@ -1,0 +1,78 @@
+.container {
+    width: 1440px;
+
+    padding: 0;
+}
+
+.header {
+    padding: 7px 0 7px 0;
+    border-bottom: 2px solid lightgrey;
+}
+
+.header-logo {
+    height: 42px;
+}
+
+.header-right {
+    font-family: Noto Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.nav-link {
+    color: black;
+}
+
+.main-1-left {
+    padding: 103px 0 0 118px;
+}
+
+.main-1-left > h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: -0.4px;
+    color: #1652AC;
+}
+
+.main-1-left > p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 32px;
+}
+
+.main-1-left p::before,
+.main-1-left p::after {
+    content: "";
+    display: block;
+    width: 227px;
+    height: 7px;
+    background: #EDEFF3;
+    margin: 55px 0;
+}
+.main-1-right>img{
+    margin-left: 50px;
+}
+.main-2-right>h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2.42px;
+    color: #1652AC;
+    margin-top: 20px;
+}
+.main-2-right>p{
+    width: 477px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+}
+.main-2-left>img{
+    width: 100%;
+}
