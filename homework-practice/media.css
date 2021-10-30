@@ -1,0 +1,37 @@
+@media screen and (max-width: 576px) {
+    .header {
+        padding: 7px 20px 7px 20px;
+    }
+
+    .main-1-left {
+        padding: 56px 30px 0 30px;
+        text-align: center;
+    }
+
+    .main-1-left > h1 {
+        line-height: 74px;
+        margin-bottom: 30px;
+    }
+
+    .main-1-left p::before {
+        margin: 30px auto;
+    }
+
+    .main-1-left p::after {
+        display: none;
+    }
+    .main-2-right{
+        text-align: center;
+    }
+    .main-2-right>p{
+        width: 100%;
+        padding: 5%;
+    }
+    .main-3-right{
+        text-align: center;
+        padding: 5%;
+    }
+    .main-3-right>p{
+        width: 100%;
+    }
+}
