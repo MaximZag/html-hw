@@ -20,18 +20,45 @@
     .main-1-left p::after {
         display: none;
     }
-    .main-2-right{
+
+    .main-2-right {
         text-align: center;
     }
-    .main-2-right>p{
+
+    .main-2-right > p {
         width: 100%;
         padding: 5%;
     }
-    .main-3-right{
+
+    .main-3-right {
         text-align: center;
         padding: 5%;
     }
-    .main-3-right>p{
+
+    .main-3-right > p {
         width: 100%;
+    }
+
+    .main-4-left {
+        text-align: center;
+        padding: 5%;
+    }
+
+    .main-4-left p {
+        width: 100%;
+    }
+
+    .main-4-left h2 {
+        width: 100%;
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    .main-4-right > img {
+        height: 300px;
+    }
+
+    .card-item {
+        width: 90%;
     }
 }

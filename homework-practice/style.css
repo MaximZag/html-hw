@@ -168,11 +168,13 @@
     width: 247px;
     text-align: start;
 }
+
 .mobile-button {
     width: 30px;
     row-gap: 5px;
     margin-right: 17px;
 }
+
 .mobile-button div {
     height: 3px;
     background: #C4C4C4;
