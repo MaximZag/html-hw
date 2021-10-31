@@ -1,11 +1,18 @@
-.contain{
+.contain {
     width: 1920px;
     margin: 0;
 }
-.header{
+
+.contain-2 {
+    padding: 0 283px;
+}
+
+.header {
     height: 36px;
     background: black;
+    padding-left: 186px;
 }
+
 .hf {
     font-style: normal;
     font-weight: 500;
@@ -13,14 +20,20 @@
     line-height: 16px;
     color: #FFFFFF;
 }
-.header-2-item-text h2{
+
+.header-2 {
+    column-gap: 79px;
+}
+
+.header-2-item-text h2 {
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
     color: #0F2438;
     margin: 0;
 }
-.header-2-item-text p{
+
+.header-2-item-text p {
     width: 168px;
     font-weight: 500;
     font-size: 12px;
@@ -28,3 +41,55 @@
     color: #0F2438;
     margin: 0;
 }
+
+.header-2-item-2 p {
+    width: 216px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    color: #0F2438;
+    margin: 0;
+}
+
+.header-2-item-3 p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0F2438;
+    margin: 0;
+}
+
+.header-2-item-4-button {
+    background: #E1EFD0;
+    padding: 8px 16px;
+    border-radius: 3px;
+}
+
+.header-2-item-4-button p {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+    color: #000000;
+    margin: 0;
+}
+
+.header-2-item-5 h2 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #0F2438;
+    margin: 0;
+}
+
+.header-2-item-5 p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration-line: underline;
+    color: #0F2438;
+    opacity: 0.7;
+    text-align: end;
+}
+
