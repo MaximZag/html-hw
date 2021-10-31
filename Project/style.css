@@ -308,6 +308,54 @@
     border: 2px solid #005BB9;
 }
 
+.main-card {
+    padding-top: 12px;
+    width: 316px;
+}
+
+.main-card h2 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #0A1A2C;
+    padding-top: 10px;
+    margin-bottom: 46px;
+}
+
+.main-card > p {
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.another {
+    font-size: 13px;
+    line-height: 15px;
+    text-decoration-line: underline;
+    color: #005BB9;
+}
+
+.main-cards-top img {
+    width: 100%;
+    margin-bottom: 21px;
+}
+
+.orange {
+    color: #FFB800;
+}
+
+.main-cards-middle p {
+    font-size: 14px;
+    line-height: 16px;
+    color: #B0B0B0;
+}
+
+.main-cards-middle img {
+    width: 16px;
+}
+
+
 
 
 
