@@ -14,10 +14,23 @@
 <body>
 <div class="contain">
     <div class="header hf d-flex">
-        <div class="header-left col-5 d-flex justify-content-center align-items-center gap-5">
+        <div class="header-left col-12 col-sm-5 d-flex justify-content-start justify-content-sm-center align-items-center gap-2 gap-sm-5">
             <div class="header-item"><img src="images/placeholder%201.png" alt="location">Ваш город: Кривой Рог</div>
             <ul class="nav nav-pills">
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown d-block d-sm-none">
+                    <a class="nav-link hf dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                       aria-expanded="false">Еще</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown d-none d-sm-block">
                     <a class="nav-link hf dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
                        aria-expanded="false">Информация</a>
                     <ul class="dropdown-menu">
@@ -30,7 +43,7 @@
                         <li><a class="dropdown-item" href="#">Separated link</a></li>
                     </ul>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown d-none d-sm-block">
                     <a class="nav-link hf dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
                        aria-expanded="false">Сотрудничество</a>
                     <ul class="dropdown-menu">
@@ -45,7 +58,7 @@
                 </li>
             </ul>
         </div>
-        <div class="header-right col-7 d-flex justify-content-start align-items-center gap-5 ps-3">
+        <div class="header-right col-7 d-none d-sm-flex justify-content-start align-items-center gap-5 ps-3">
             <div class="header-item">Доставка</div>
             <div class="header-item">Оплата</div>
             <div class="header-item">Гарантия</div>
@@ -56,7 +69,7 @@
         </div>
     </div>
     <div class="contain-2">
-        <div class="header-2 d-flex align-items-center justify-content-center">
+        <div class="header-2 d-flex align-items-center justify-content-around justify-content-sm-center">
             <div class="header-2-item-1 d-flex">
                 <img src="images/Logo%20A.png" alt="Logo">
                 <div class="header-2-item-text d-flex flex-column justify-content-center">
@@ -64,15 +77,15 @@
                     <p>Интернет-магазин запчастей для АКПП</p>
                 </div>
             </div>
-            <div class="header-2-item-2 d-flex justify-content-center align-items-center gap-3">
+            <div class="header-2-item-2 d-none d-sm-flex justify-content-center align-items-center gap-3">
                 <img src="images/time%20(1)%201.png" alt="Time">
                 <p>Мы работаем: будни - 9:00-21:00 сб. - 10:00-15:00</p>
             </div>
-            <div class="header-2-item-3 d-flex justify-content-center align-items-center gap-3">
+            <div class="header-2-item-3 d-none d-sm-flex justify-content-center align-items-center gap-3">
                 <img src="images/location.png" alt="Location">
                 <p>Невский пр-т, д. 45</p>
             </div>
-            <div class="header-2-item-4 d-flex justify-content-center align-items-center">
+            <div class="header-2-item-4 d-none d-sm-flex justify-content-center align-items-center">
                 <div class="header-2-item-4-button d-flex justify-content-center align-items-center gap-2">
                     <img src="images/whatsapp%20(2)%201.png" alt="Whatsapp">
                     <p>Напишите нам в WhatsApp</p>
@@ -83,6 +96,12 @@
                 <p>форма обратной связи</p>
             </div>
         </div>
+        <div class="header-2-item-4 d-flex d-sm-none justify-content-end align-items-center pe-2">
+            <div class="header-2-item-4-button d-flex justify-content-center align-items-center gap-2">
+                <img src="images/whatsapp%20(2)%201.png" alt="Whatsapp">
+                <p>Напишите нам в WhatsApp</p>
+            </div>
+        </div>
         <div class="header-3 d-flex align-items-center justify-content-between">
             <div class="header-3-but d-flex justify-content-center align-items-center gap-2">
                 <div class="hambur d-flex flex-column justify-content-center align-items-center">
@@ -90,14 +109,17 @@
                     <div></div>
                     <div></div>
                 </div>
-                <p>Каталог</p>
+                <p class="d-none d-sm-block">Каталог</p>
             </div>
             <div class="input-group">
                 <input type="text" class="form-control" placeholder="Поиск по наименованию или артикулу"
                        aria-label="Username" aria-describedby="input-group-button-right">
-                <div class="header-3-but long d-flex justify-content-center align-items-center">Найти</div>
+                <div class="header-3-but long d-none d-sm-flex justify-content-center align-items-center">Найти</div>
+                <div class="header-3-but long d-flex d-sm-none justify-content-center align-items-center">
+                    <img src="images/search%20(2)%201.png" alt="search">
+                </div>
             </div>
-            <div class="header-3-right d-flex justify-content-center align-items-center gap-3">
+            <div class="header-3-right d-none d-sm-flex justify-content-center align-items-center gap-3">
                 <div class="header-3-right-item h3rb d-flex justify-content-center align-items-center gap-3">
                     <img src="images/user%20(1)%201.png" alt="user">
                     <p>Войти</p>
@@ -112,8 +134,8 @@
                 </div>
             </div>
         </div>
-        <div class="main d-flex justify-content-center align-items-center gap-2">
-            <div class="carousel col-9">
+        <div class="main d-wrap d-sm-flex justify-content-center align-items-center gap-2">
+            <div class="carousel col-12 col-sm-9">
                 <div id="carouselWithIndicators" class="carousel slide" data-bs-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-bs-target="#carouselWithIndicators" data-bs-slide-to="0" class="active"></li>
@@ -180,7 +202,7 @@
                     </a>
                 </div>
             </div>
-            <div class="main-right-all d-flex flex-wrap gap-2">
+            <div class="main-right-all d-flex flex-sm-wrap gap-2">
                 <div class="main-right">
                     <div class="main-right-top">
                         <p>Акция</p>
@@ -224,7 +246,7 @@
                 </div>
             </div>
         </div>
-        <div class="main-2 d-flex justify-content-between">
+        <div class="main-2 d-flex flex-wrap flex-sm-nowrap justify-content-center justify-content-sm-between">
             <div class="cardm d-flex justify-content-center align-items-center">
                 <div class="card-left d-flex flex-column align-items-start gap-2 col-8">
                     <h2>Масла</h2>
@@ -256,7 +278,7 @@
                 </div>
             </div>
         </div>
-        <div class="main-3 d-flex justify-content-start align-items-center gap-4">
+        <div class="main-3 d-flex justify-content-around justify-content-sm-start align-items-center gap-4">
             <div class="main-3-button1 dim d-flex justify-content-center align-items-center">Подборки товаров</div>
             <div class="main-3-button2 dim d-flex justify-content-center align-items-center">Акции</div>
             <div class="main-3-button3 dim d-flex justify-content-center align-items-center">Сейчас покупают</div>
