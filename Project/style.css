@@ -142,16 +142,15 @@
 }
 
 .main {
-    margin-top: 30px;
+    padding-top: 30px;
 }
 
 .carousel {
-    width: 1000px;
+
 }
 
 .car1 {
-    width: 1000px;
-    height: 385px;
+    height: 390px;
     background: url("images/Carousel.png") no-repeat center/cover;
     border-radius: 20px;
 }
@@ -187,6 +186,85 @@
     line-height: 19px;
     color: #FFFFFF;
 }
+.main-right{
+    height: 190px;
+    background: #F4F5FA;
+    border-radius: 10px;
+}
+.main-right-top{
+    padding: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0F2438;
+}
+.middle1 h2{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #0A1A2C;
+}
+.middle1 p{
+    font-size: 12px;
+    line-height: 14px;
+    color: #525252;
+}
+.bottom-left{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFB800;
+}
+.bottom-right{
+    width: 57px;
+    height: 49px;
+    background: #005BB9;
+    border-radius: 6px;
+}
+.main-right-middle{
+    padding-left: 15px;
+    column-gap: 15px;
+}
+.main-2{
+    padding-top: 70px;
+}
+.cardm{
+    width: 431px;
+    height: 184px;
+    border: 1px solid #E1E5F8;
+    box-sizing: border-box;
+    padding: 5px 5px 5px 30px;
+    border-radius: 6px;
+}
+.cardm img{
+    width: 148px;
+}
+.card-left-button{
+    width: 86px;
+    height: 26px;
+    background: #005BB9;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.card-left h2{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0A1A2C;
+}
+.card-left p{
+    width: 168px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #0A1A2C;
+}
+
+
+
 
 
 
