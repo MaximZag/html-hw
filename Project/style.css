@@ -326,7 +326,7 @@
     font-size: 13px;
     line-height: 15px;
     color: #000000;
-    margin-bottom: 20px;
+
 }
 
 .another {
@@ -353,6 +353,15 @@
 
 .main-cards-middle img {
     width: 16px;
+}
+.main-4{
+    column-gap: 30px;
+}
+.main-card h3{
+    margin: 0;
+}
+.main-cards-bottom{
+    margin-top: 15px;
 }
 
 
