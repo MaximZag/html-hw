@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+.contain p, h2 {
+    margin: 0;
+}
+
 .contain-2 {
     padding: 0 283px;
 }
@@ -30,7 +34,6 @@
     font-size: 24px;
     line-height: 28px;
     color: #0F2438;
-    margin: 0;
 }
 
 .header-2-item-text p {
@@ -39,7 +42,6 @@
     font-size: 12px;
     line-height: 14px;
     color: #0F2438;
-    margin: 0;
 }
 
 .header-2-item-2 p {
@@ -49,7 +51,6 @@
     line-height: 20px;
     text-align: right;
     color: #0F2438;
-    margin: 0;
 }
 
 .header-2-item-3 p {
@@ -57,7 +58,6 @@
     font-size: 14px;
     line-height: 16px;
     color: #0F2438;
-    margin: 0;
 }
 
 .header-2-item-4-button {
@@ -72,7 +72,6 @@
     line-height: 14px;
     text-align: right;
     color: #000000;
-    margin: 0;
 }
 
 .header-2-item-5 h2 {
@@ -80,7 +79,6 @@
     font-size: 20px;
     line-height: 23px;
     color: #0F2438;
-    margin: 0;
 }
 
 .header-2-item-5 p {
@@ -92,4 +90,34 @@
     opacity: 0.7;
     text-align: end;
 }
+
+.header-3-but {
+    width: 164px;
+    height: 53px;
+    background: #005BB9;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.hambur div {
+    background: white;
+    width: 20px;
+    height: 3px;
+}
+
+.hambur {
+    row-gap: 3px;
+}
+.input-group{
+    width: 549px;
+}
+.long{
+    width: 101px;
+}
+
+
+
 
