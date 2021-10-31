@@ -119,4 +119,56 @@
     .main-3-button1.main-3-button3 {
         width: 160px;
     }
+
+    .main-card {
+        width: 48%;
+        border-bottom: 2px solid #E1E5F8;
+        padding: 5px 5px 10px 5px;
+    }
+
+    .main-card h2 {
+        font-size: 12px;
+        line-height: 17px;
+        margin-bottom: 30px;
+    }
+
+    .main-card p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .main-4 {
+        column-gap: 5px;
+
+    }
+
+    .main-5 {
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .news-header {
+        font-size: 16px;
+        line-height: 19px;
+        padding-left: 22px;
+        margin-bottom: 0;
+    }
+
+    .news {
+        padding: 22px;
+        margin-bottom: 20px;
+    }
+
+    .news-item {
+        row-gap: 10px;
+    }
+
+    .news-item p {
+        width: 100%;
+    }
+
+    .news-item-button {
+        margin-left: 0;
+        margin-top: 20px;
+    }
 }
