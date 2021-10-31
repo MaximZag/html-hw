@@ -443,6 +443,7 @@
 .footer {
     background: #0C1A2A;
     padding-top: 36px;
+    column-gap: 132px;
 }
 
 .footer-left {
@@ -479,6 +480,52 @@
     line-height: 16px;
     color: #FFFFFF;
 }
+
+.footer-column > img {
+    margin-left: 32px;
+}
+
+.top h2 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #868DAC;
+    margin-bottom: 15px;
+}
+
+.top p {
+    width: 200px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.form2 {
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.footer-right-top {
+    margin-bottom: 23px;
+}
+
+.footer-right-middle {
+    font-size: 18px;
+    line-height: 21px;
+    color: #858CAB;
+    margin-bottom: 23px;
+}
+
+.footer-right-middle2 {
+    width: 343px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #858CAB;
+    margin-bottom: 23px;
+}
+
 
 
 
