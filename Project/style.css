@@ -145,10 +145,6 @@
     padding-top: 30px;
 }
 
-.carousel {
-
-}
-
 .car1 {
     height: 390px;
     background: url("images/Carousel.png") no-repeat center/cover;
@@ -526,6 +522,31 @@
     margin-bottom: 23px;
 }
 
+.footer-right-bottom {
+    margin-bottom: 30px;
+}
+
+.footer-right-bottom2 {
+    margin-bottom: 30px;
+    column-gap: 55px;
+}
+
+.long2 {
+    width: 470px;
+}
+
+.input-bg {
+    background: none;
+}
+
+.footer-but {
+    width: 170px;
+    background: #005BB9;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
 
 
 
